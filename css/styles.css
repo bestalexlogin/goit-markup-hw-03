@@ -22,17 +22,42 @@ body {
   --fontlogo: "Raleway", sans-serif;
 }
 
-/*
-a{
-  text-decoration: none;
+.container {
+  /* width: 1128px; */
+  width: 100%;
+  max-width: 1128px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red; /*DELETE*/
 }
 
-ul{
-  list-style: none;
+/* Reset styles */
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
-*/
+
+ul,
+ol {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 /*Header styles*/
+
+.page-header {
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
+}
 
 .page-logo {
   color: #4d5ae5;
@@ -90,6 +115,10 @@ ul{
 /*Main banner Section 1*/
 .main-banner {
   background-color: var(--navyblue);
+}
+
+.main-banner-wrap {
+  padding: 188px 472px 292px 472px;
 }
 
 .main-banner-title {
