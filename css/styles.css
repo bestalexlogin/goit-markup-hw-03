@@ -52,6 +52,18 @@ ol {
   margin-bottom: 0;
 }
 
+img {
+  display: block;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
 /*Header styles*/
 
 .page-header {
@@ -71,14 +83,6 @@ ol {
 
 .page-logo-color {
   color: #2e2f42;
-}
-
-.link {
-  text-decoration: none;
-}
-
-.list {
-  list-style: none;
 }
 
 .header-menu-link {
@@ -118,7 +122,7 @@ ol {
 }
 
 .main-banner-wrap {
-  padding: 188px 472px 292px 472px;
+  padding: 188px 316px 292px 316px;
 }
 
 .main-banner-title {
@@ -128,6 +132,8 @@ ol {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  margin-bottom: 48px;
+  width: 496px;
 }
 
 .main-banner-button {
@@ -148,6 +154,8 @@ ol {
 
 /*Advantages Section 2*/
 .section-advatages {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .advantages-list {
 }
@@ -160,6 +168,8 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+
+  margin-bottom: 8px;
 }
 .advantages-text {
   color: var(--slate);
@@ -170,6 +180,7 @@ ol {
 
 /*Our job Section 3*/
 .section-about {
+  padding-bottom: 120px;
 }
 
 .section-about-title {
@@ -180,6 +191,8 @@ ol {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+
+  margin-bottom: 72px;
 }
 
 .section-about-list {
@@ -200,10 +213,14 @@ ol {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+
+  padding-top: 120px;
+  padding-bottom: 72px;
 }
 
 .section-team-list {
   background-color: #ffffff;
+  padding-bottom: 120px;
 }
 
 .section-team-item {
@@ -231,6 +248,11 @@ ol {
 /*Footer Section 5*/
 .page-footer {
   background: var(--navyblue);
+  padding-top: 101.5px;
+  padding-bottom: 100px;
+}
+
+page-footer-wrap {
 }
 
 .page-footer-logo {
@@ -252,6 +274,9 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
+  margin-top: 17.5px;
+  max-width: 264px;
 }
 
 /*Page main portfolio*/
