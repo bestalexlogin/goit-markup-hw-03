@@ -23,12 +23,12 @@ body {
 }
 
 .container {
-  width: 1128px;
+  width: 1158px;
   /* width: 100%;
-  max-width: 1128px; */
+  max-width: 1158px; */
   padding: 0 15px;
   margin: 0 auto;
-  outline: 2px solid red; /*DELETE*/
+  /* outline: 2px solid red; DELETE */
 }
 
 /* Reset styles */
