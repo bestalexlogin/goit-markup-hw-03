@@ -112,7 +112,6 @@ img {
 }
 
 .header-menu-item {
-  padding: 24px 0 24px;
 }
 
 .header-menu-link {
@@ -121,6 +120,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0 24px;
 }
 
 .header-menu-link:hover,
