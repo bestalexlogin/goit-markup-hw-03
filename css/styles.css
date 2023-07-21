@@ -350,8 +350,10 @@ page-footer-wrap {
 /*Page main portfolio*/
 
 .portfolio {
-  padding-top: 96px;
-  padding-bottom: 120px;
+}
+
+.portfolio-section {
+  padding: 96px 0 120px 0;
 }
 
 .portfolio-button-list {
