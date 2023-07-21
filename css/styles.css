@@ -272,7 +272,6 @@ img {
 }
 
 .section-team-list {
-  background-color: #ffffff;
   display: flex;
   gap: 24px;
 }
@@ -407,7 +406,6 @@ page-footer-wrap {
 }
 
 .portfolio-about-img {
-  margin-bottom: 32px;
 }
 
 .portfolio-about-title {
